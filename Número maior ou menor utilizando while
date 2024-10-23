@@ -1,0 +1,6 @@
+numero = int(input("Digite um numero : "))
+while numero >= 6:
+    print("Numero aceito")
+    break
+else:
+    print("Numero nao aceito")
