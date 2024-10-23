@@ -1,0 +1,3 @@
+alimentos = ["uva", "limão", "abacaxi", "morango", "maçã", "melão"]
+
+print(alimentos[1:2])
