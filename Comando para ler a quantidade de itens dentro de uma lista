@@ -1,0 +1,2 @@
+palavras = ["jhonatan", "nicolas", "enzo", "carla"]
+print(len(palavras))
