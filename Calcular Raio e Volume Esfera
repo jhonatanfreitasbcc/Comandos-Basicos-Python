@@ -1,0 +1,8 @@
+raio = float(input("Digite um valor para o raio da esfera : "))
+PI = 3.1415
+área = float(input("Digite um valor para a área da esfera : "))
+volume = float(input("Digite um valor para o volume da esfera : "))
+volume_esfera = 4 / 3 * PI * raio ** 3
+area_esfera = 4 * PI * raio ** 2
+print("volume da esfera é : ", volume_esfera)
+print("área da esfera é : ", area_esfera )
