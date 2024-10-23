@@ -1,0 +1,5 @@
+valor_inicial = float(input("Digite o valor que deseja guardar : "))
+juros_mensal = float(input("Digite o valor do juros mensal : "))
+rendimento_total = int(input("Digite quantos meses deseja deixar o seu dinheiro na conta bancaria : "))
+valor_final = valor_inicial * (1+juros_mensal)** rendimento_total
+print(valor_final, "Reais")
