@@ -1,0 +1,2 @@
+numero = [3, 5, 8]
+print(max(numero))
