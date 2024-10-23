@@ -1,0 +1,6 @@
+palavra = str(input("Digite uma palavra : "))
+
+if palavra [::-1] == palavra:
+    print("palavra palindromo")
+else:
+    print("palavra nao palindromo")
