@@ -1,0 +1,7 @@
+def palavra_escada(palavra_em_formato_de_escada):
+    for i in range(len(palavra_em_formato_de_escada)):
+        print(" " * i + palavra_em_formato_de_escada[i])
+        
+palavra_em_formato_de_escada = str(input("Digite uma palavra : "))
+palavra_escada(palavra_em_formato_de_escada)
+        
