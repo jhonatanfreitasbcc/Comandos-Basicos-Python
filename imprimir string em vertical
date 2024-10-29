@@ -1,0 +1,8 @@
+def escrever_vertical(palavra):
+    for caractere in palavra:
+        print(caractere)
+        
+palavra = str(input("Digite uma palavra : "))
+escrever_vertical(palavra)
+
+
