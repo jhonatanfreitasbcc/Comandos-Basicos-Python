@@ -1,0 +1,10 @@
+def calcular_raiz(a, b):
+    return -b / a
+
+def main():
+    coef_angular = float(input("Informe o coeficiente angular da equação: "))
+    coef_reta = float(input("Informe o coeficiente linear da reta: "))
+    
+    raiz = calcular_raiz(coef_angular, coef_reta)
+    print("A raiz da equação é:", raiz)
+main()
