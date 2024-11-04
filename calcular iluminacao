@@ -1,0 +1,2 @@
+def calcular_iluminacao(dimensao1, dimensao2):
+    return (dimensao1 * dimensao2) * 18
