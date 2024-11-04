@@ -1,0 +1,5 @@
+def calcular_rendimento(deposito, juros_mensal=0.005):
+    valor_com_rendimento = deposito * (1 + juros_mensal) ** 6
+    return round(valor_com_rendimento, 2)
+    
+    
