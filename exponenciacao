@@ -1,0 +1,2 @@
+numero = abs(pow(round(6.9), pow(9, 0.5)))
+print(numero)
