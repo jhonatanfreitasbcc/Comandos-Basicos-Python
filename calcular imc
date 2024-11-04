@@ -1,0 +1,2 @@
+def imc(massa, altura):
+    return massa / altura ** 2
