@@ -1,0 +1,4 @@
+numero = float(input())
+inteiro = (int(numero))
+print("%.2f" % (inteiro))
+print("%2e" % (inteiro))
