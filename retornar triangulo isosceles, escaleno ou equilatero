@@ -1,0 +1,13 @@
+def triangulo(a, b, c):
+    equilátero = a == b and b == c
+    isósceles = a == b and b != c
+    escaleno = a != b and b != c
+a = int(input("digite numero para a : "))
+b = int(input("digite numero para b : "))
+c = int(input("digite numero para c : "))
+if a == b and b == c:
+    print("equilátero")
+elif a == b and b != c:
+    print("isósceles")
+else:
+    print("escaleno")
