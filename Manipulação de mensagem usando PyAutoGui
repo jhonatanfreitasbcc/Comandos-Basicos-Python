@@ -1,0 +1,14 @@
+import pyautogui as py
+import random
+import time
+
+time.sleep(5)
+
+mensagens = ["Python", "aqui na área"]
+
+
+for i in range(1000)
+               
+    msg = random.choice(mensagens)
+    py.write(msg)
+    py.press("enter")
