@@ -1,0 +1,7 @@
+senha = 5432
+senha2 = int(input("Digite sua senha: "))
+
+if senha2 == senha:
+    print("Senha Correta")
+else:
+    print("Senha Incorreta")
