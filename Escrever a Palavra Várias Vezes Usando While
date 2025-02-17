@@ -1,0 +1,9 @@
+contador = 0
+palavra = str(input("Digite uma palavra: "))
+vezes = 200
+while contador < vezes:
+    print(palavra)
+    contador += 1
+    
+    
+  
