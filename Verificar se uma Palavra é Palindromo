@@ -1,0 +1,9 @@
+def palindromo(palavra):
+    if palavra == palavra[::-1]:
+        return "A palavra é um palíndromo"
+    else:
+        return "A palavra não é um palíndromo"
+
+palavra = input("Digite uma palavra: ").strip().lower()  # Removendo espaços extras e convertendo para minúsculas
+resultado = palindromo(palavra)
+print(resultado)
