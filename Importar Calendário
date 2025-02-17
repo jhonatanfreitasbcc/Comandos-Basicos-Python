@@ -1,0 +1,7 @@
+import calendar
+
+ano = 2000
+
+mes = 4
+
+print(calendar.month(ano, mes))
